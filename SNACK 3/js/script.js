@@ -4,7 +4,8 @@
 
 // Mi creo un array di numeri
 const numbersArray = [2, 5, 56, 23, 9, 22, 71, 65, 13, 1, 90];
- console.log(numbersArray);
+console.log(numbersArray);
+
 let evenDiv = document.querySelector('#even');
 let oddDiv = document.querySelector('#odd');
 // console.log(evenDiv);
@@ -15,9 +16,9 @@ let oddDiv = document.querySelector('#odd');
     // Controllo se sono pari o dispari
     // Li divido dentro i due div in base a se sono pari o dispari
         if (eachNumber % 2 === 0) {
-            evenDiv.innerHTML += eachNumber;
+            evenDiv.innerHTML += eachNumber + ' ';
         } else {
-            oddDiv.innerHTML += eachNumber;
+            oddDiv.innerHTML += eachNumber + ' ';
         }
         // console.log(eachNumber);
     }
